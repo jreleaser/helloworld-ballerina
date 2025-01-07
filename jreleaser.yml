@@ -8,11 +8,12 @@ project:
     - Andres Almiray
   license: APACHE-2.0
   inceptionYear: 2023
-  stereotype: cli
-  java:
-    groupId: org.jreleaser.examples
-    artifactId: helloworld
-    version: 11
+  stereotype: CLI
+  languages:
+    java:
+      groupId: org.jreleaser.examples
+      artifactId: helloworld
+      version: 11
 
 release:
   github:
